@@ -33,7 +33,6 @@ var resultado = suma / numTres;
 console.log(suma);
 
 console.log(resultado);
-*/
 
 
 //Operaciones matemáticas personalizadas
@@ -45,6 +44,17 @@ var numTres = parseInt(prompt("Introduzca Tercer Valor"));
 var resultado = (numUno + numDos) / numTres;
 
 console.log("La operación es la siguiente: " + numUno + " + " + numDos + " / " + numTres);
+console.log(resultado); 
 
-console.log(resultado);
+// Variables Booleanas
+var numUno = parseInt(prompt("Introduzca un Número"));
+//var numDos = parseInt(prompt("Introduzca un Número"));
 
+var resultado = numUno == 64845628;
+console.log(resultado);*/
+
+//Variable Arrays - Cadenas - Arreglos
+var meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var semana = [1,2,3,4,5,6,7,8,]
+console.log(meses);
+console.log(meses[0] + " " + );
